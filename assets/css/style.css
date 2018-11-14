@@ -1,0 +1,117 @@
+.cheathamLogo {
+    position: relative;
+    left: 40px;
+    top: 20px;
+    width: 50%;
+}
+
+.logo {
+    float: left;
+}
+
+.cheathamPA{
+    clear: both;
+    display: inline;
+    position: relative;
+    left: 15px;
+    bottom: 5px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 36px;
+}
+
+.consEngineers {
+    font-family: 'Fira Sans', sans-serif;
+    position: relative;
+    bottom: 5px;
+    left: 17px;
+    font-size: 24px;
+}
+
+nav {
+position: relative;
+    bottom: 32px;
+    right: 30px;
+}
+
+.nav-item {
+    
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.nav-link:hover a:after {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+}
+
+.redbar {
+    height: 15px;
+    background-color: #ce3939;
+    position: relative;
+    bottom: 30px;
+}
+
+/* --------------HomePage--------------- */
+
+.carousel {
+    position: relative;
+    bottom: 30px;
+}
+
+.opaticBox {
+    height: 394px;
+    width: 550px;
+    background-color: #000000;
+    margin-top: -424px;
+    opacity: 0.4;
+}
+
+.carouselText {
+    width: 500px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: -370px;
+    margin-left: 25px;
+    z-index: 1000;
+    position: relative;
+}
+
+#carTextHeader {
+    font-size: 40px;
+}
+
+#carTextBody {
+    font-size: 24px;
+}
+
+#homePage {
+    margin-top: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#services {
+    margin-top: 80px;
+}
+
+.services {
+    /* background-color: #ce3939; */
+    padding: 10px;
+}
+
+/* ---------------------About Page-------------------- */
+
+#aboutPage {
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
