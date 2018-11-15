@@ -60,12 +60,8 @@ position: relative;
     bottom: 30px;
 }
 
-.opaticBox {
-    height: 394px;
-    width: 550px;
-    background-color: #000000;
-    margin-top: -424px;
-    opacity: 0.4;
+#slide {
+    width: 100%;
 }
 
 .carouselText {
@@ -81,10 +77,14 @@ position: relative;
 
 #carTextHeader {
     font-size: 40px;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: bold;
 }
 
 #carTextBody {
     font-size: 24px;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: 600;
 }
 
 #homePage {
@@ -114,9 +114,9 @@ ul {
 
 #aboutPage {
     margin-top: 50px;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
     text-align: center;
     font-family: 'Fira Sans', sans-serif;
 }
@@ -175,4 +175,15 @@ ul {
 .profilePic {
     height: 120px;
     width: 120px;
+}
+
+/* ----------------services page------------------------------ */
+
+#servicesPage {
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
 }
